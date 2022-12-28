@@ -1,0 +1,3678 @@
+﻿{
+  "status": 200,
+  "code": "SUCCESS",
+  "message": "Searched list successfully",
+  "record": [
+    {
+      "id": 13,
+      "name": "Gwangju_01",
+      "model": null,
+      "manufacturer": "",
+      "location": "",
+      "edgeId": 6,
+      "profileId": 20,
+      "connectionType": "serial",
+      "networkConfig": {
+        "port": "COM1",
+        "baudRate": 9600,
+        "parity": "None",
+        "stopBit": 1
+      },
+      "imgPath": null,
+      "description": "",
+      "logicalStationNumber": 1,
+      "deployModel": null,
+      "userId": 2,
+      "groupId": 1,
+      "dataCollectHistoryId": 11,
+      "securityCertification": {},
+      "createdAt": "2022-11-24T05:00:25.634Z",
+      "updatedAt": "2022-11-24T05:37:54.592Z",
+      "EdgeId": 6,
+      "ProfileId": 20,
+      "Profile": {
+        "name": "Frontec_Profile_Gwangju",
+        "requests": [
+          {
+            "tagId": 1669265903538,
+            "name": "device_status",
+            "korName": "설비 상태",
+            "memoryType": "BIT",
+            "memoryAddr": "D15000"
+          },
+          {
+            "tagId": 1669267243701,
+            "name": "cumulative_count_1",
+            "korName": "누적생산량 #1",
+            "memoryType": "BIT",
+            "memoryAddr": "D138"
+          },
+          {
+            "tagId": 1669684356812,
+            "name": "cumulative_count_2",
+            "korName": "누적생산량 #2",
+            "memoryType": "BIT",
+            "memoryAddr": "D139"
+          },
+          {
+            "tagId": 1669684412074,
+            "name": "daily_count_1_A",
+            "korName": "일일생산량 #1-1",
+            "memoryType": "BIT",
+            "memoryAddr": "D132"
+          },
+          {
+            "tagId": 1669685072931,
+            "name": "daily_count_1_B",
+            "korName": "일일생산량 #1-2",
+            "memoryType": "BIT",
+            "memoryAddr": "D133"
+          },
+          {
+            "tagId": 1669685117391,
+            "name": "daily_count_2_A",
+            "korName": "일일생산량 #2-1",
+            "memoryType": "BIT",
+            "memoryAddr": "D136"
+          },
+          {
+            "tagId": 1669685139258,
+            "name": "daily_count_2_B",
+            "korName": "일일생산량 #2-2",
+            "memoryType": "BIT",
+            "memoryAddr": "D137"
+          },
+          {
+            "tagId": 1669685271173,
+            "name": "sholder_metal_control_temperature",
+            "korName": "어깨 메탈 온도 조작측",
+            "memoryType": "BIT",
+            "memoryAddr": "D5580"
+          },
+          {
+            "tagId": 1669685293297,
+            "name": "sholder_metal_cutting_temperature",
+            "korName": "어깨 메탈 온도 절단측",
+            "memoryType": "BIT",
+            "memoryAddr": "D5570"
+          },
+          {
+            "tagId": 1669685918746,
+            "name": "main_inverter_disorder",
+            "korName": "메인 인버터 이상(M1)",
+            "memoryType": "BIT",
+            "memoryAddr": "L100"
+          },
+          {
+            "tagId": 1669685937475,
+            "name": "main_motor_cooling_fan_overload",
+            "korName": "메인모터 냉각팬 과부하(M1A)",
+            "memoryType": "BIT",
+            "memoryAddr": "L101"
+          },
+          {
+            "tagId": 1669685963845,
+            "name": "lubricant_pump_overload",
+            "korName": "윤활유펌프 과부하(M2)",
+            "memoryType": "BIT",
+            "memoryAddr": "L102"
+          },
+          {
+            "tagId": 1669685985819,
+            "name": "sholder_metal_pump_overload",
+            "korName": "어깨메탈펌프 과부하(M2A)",
+            "memoryType": "BIT",
+            "memoryAddr": "L103"
+          },
+          {
+            "tagId": 1669686005785,
+            "name": "process_oil_pump_overload",
+            "korName": "가공유펌프 과부하(M3)",
+            "memoryType": "BIT",
+            "memoryAddr": "L104"
+          },
+          {
+            "tagId": 1669686030327,
+            "name": "lubricant_collect_pump_overload",
+            "korName": "윤활유 회수펌프 과부하(M4A)",
+            "memoryType": "BIT",
+            "memoryAddr": "L105"
+          },
+          {
+            "tagId": 1669686052367,
+            "name": "process_oil_recall_pump_overload",
+            "korName": "가공유 회수펌프 과부하(M4B)",
+            "memoryType": "BIT",
+            "memoryAddr": "L106"
+          },
+          {
+            "tagId": 1669686221377,
+            "name": "lubricant_centrifuge_overload",
+            "korName": "윤활유 원심분리기 과부하(M5A)",
+            "memoryType": "BIT",
+            "memoryAddr": "L107"
+          },
+          {
+            "tagId": 1669686241635,
+            "name": "process_oil_centrifuge_overload",
+            "korName": "가공유 원심분리기 과부하(M5B)",
+            "memoryType": "BIT",
+            "memoryAddr": "L108"
+          },
+          {
+            "tagId": 1669686277381,
+            "name": "claws_inverter_disorder",
+            "korName": "집게틀 인버터 이상(M6)",
+            "memoryType": "BIT",
+            "memoryAddr": "L109"
+          },
+          {
+            "tagId": 1669686307291,
+            "name": "ram_cover_motor_overload",
+            "korName": "램커버 모터 과부하(M7)",
+            "memoryType": "BIT",
+            "memoryAddr": "L110"
+          },
+          {
+            "tagId": 1669686442169,
+            "name": "cutting_inverter_disorder",
+            "korName": "절단장 인버터 이상(M9)",
+            "memoryType": "BIT",
+            "memoryAddr": "L111"
+          },
+          {
+            "tagId": 1669686462201,
+            "name": "material_transfer_motor_overload",
+            "korName": "재료이송 모터 과부하(M10)",
+            "memoryType": "BIT",
+            "memoryAddr": "L112"
+          },
+          {
+            "tagId": 1669686482769,
+            "name": "timber_remove_motor_overload",
+            "korName": "선재제거 모터 과부하(M12)",
+            "memoryType": "BIT",
+            "memoryAddr": "L113"
+          },
+          {
+            "tagId": 1669686509239,
+            "name": "conveyor_oil_pan_pump_overload",
+            "korName": "콘베어 오일받이펌프 과부하(M13)",
+            "memoryType": "BIT",
+            "memoryAddr": "L114"
+          },
+          {
+            "tagId": 1669686631123,
+            "name": "product_conveyor_motor_overload",
+            "korName": "제품콘베어 모터 과부하(M14)",
+            "memoryType": "BIT",
+            "memoryAddr": "L115"
+          },
+          {
+            "tagId": 1669686645917,
+            "name": "chip_conveyor_motor_overload",
+            "korName": "칩콘베어 모터 과부하(M15)",
+            "memoryType": "BIT",
+            "memoryAddr": "L116"
+          },
+          {
+            "tagId": 1669686686009,
+            "name": "KO_bottom_oil_recall_pump_overload",
+            "korName": "KO하단 오일회수펌프 과부하(M16)",
+            "memoryType": "BIT",
+            "memoryAddr": "L117"
+          },
+          {
+            "tagId": 1669686710435,
+            "name": "SP_conveyor_inverter_disorder",
+            "korName": "SP콘베어 인버터 이상(INV17)",
+            "memoryType": "BIT",
+            "memoryAddr": "L118"
+          },
+          {
+            "tagId": 1669686730127,
+            "name": "SP_conveyor_motor1_overload",
+            "korName": "SP콘베어 1차 모터 과부하(M17A)",
+            "memoryType": "BIT",
+            "memoryAddr": "L119"
+          },
+          {
+            "tagId": 1669686768185,
+            "name": "SP_conveyor_motor2_overload",
+            "korName": "SP콘베어 2차 모터 과부하(M17B)",
+            "memoryType": "BIT",
+            "memoryAddr": "L120"
+          },
+          {
+            "tagId": 1669686914403,
+            "name": "timber_incoming_motor_overload",
+            "korName": "선재인입 모터 과부하(M18)",
+            "memoryType": "BIT",
+            "memoryAddr": "L121"
+          },
+          {
+            "tagId": 1669686939485,
+            "name": "process_oil_nozzle_motor_overload",
+            "korName": "가공유노즐 모터 과부하(M19)",
+            "memoryType": "BIT",
+            "memoryAddr": "L122"
+          },
+          {
+            "tagId": 1669686958159,
+            "name": "uncoiler_inverter_disorder",
+            "korName": "언코일러 인버터 이상(M20A)",
+            "memoryType": "BIT",
+            "memoryAddr": "L123"
+          },
+          {
+            "tagId": 1669686973903,
+            "name": "pinch_roll_inverter_disorder",
+            "korName": "핀치롤 인버터 이상(M20B)",
+            "memoryType": "BIT",
+            "memoryAddr": "L124"
+          },
+          {
+            "tagId": 1669687002897,
+            "name": "KO_adjustment_inverter_disorder",
+            "korName": "KO조정 인버터 이상(INV100)",
+            "memoryType": "BIT",
+            "memoryAddr": "L125"
+          },
+          {
+            "tagId": 1669687013731,
+            "name": "KO1_adjustment_motor_overload",
+            "korName": "KO.1조정 모터 과부하(M21)",
+            "memoryType": "BIT",
+            "memoryAddr": "L126"
+          },
+          {
+            "tagId": 1669687026953,
+            "name": "KO2_adjustment_motor_overload",
+            "korName": "KO.2조정 모터 과부하(M22)",
+            "memoryType": "BIT",
+            "memoryAddr": "L127"
+          },
+          {
+            "tagId": 1669687041449,
+            "name": "KO3_adjustment_motor_overload",
+            "korName": "KO.3조정 모터 과부하(M23)",
+            "memoryType": "BIT",
+            "memoryAddr": "L128"
+          },
+          {
+            "tagId": 1669687187459,
+            "name": "KO4_adjustment_motor_overload",
+            "korName": "KO.4조정 모터 과부하(M24)",
+            "memoryType": "BIT",
+            "memoryAddr": "L129"
+          },
+          {
+            "tagId": 1669687330049,
+            "name": "KO5_adjustment_motor_overload",
+            "korName": "KO.5조정 모터 과부하(M25)",
+            "memoryType": "BIT",
+            "memoryAddr": "L130"
+          },
+          {
+            "tagId": 1669687344469,
+            "name": "KO6_adjustment_motor_overload",
+            "korName": "KO.6조정 모터 과부하(M26)",
+            "memoryType": "BIT",
+            "memoryAddr": "L131"
+          },
+          {
+            "tagId": 1669687355247,
+            "name": "KO7_adjustment_motor_overload",
+            "korName": "KO.7조정 모터 과부하(M27)",
+            "memoryType": "BIT",
+            "memoryAddr": "L132"
+          },
+          {
+            "tagId": 1669687373489,
+            "name": "uncoiler_oil_pressure_pump_overload",
+            "korName": "언코일러 유압펌프 과부하(M28)",
+            "memoryType": "BIT",
+            "memoryAddr": "L133"
+          },
+          {
+            "tagId": 1669687396073,
+            "name": "uncoiler_oil_pressure_pump_cooling_fan_overload",
+            "korName": "언코일러 유압펌프 냉각팬과부하(M28A)",
+            "memoryType": "BIT",
+            "memoryAddr": "L134"
+          },
+          {
+            "tagId": 1669687574596,
+            "name": "block_oil_pressure_pump_overload",
+            "korName": "다이블럭 유압펌프 과부하(M29)",
+            "memoryType": "BIT",
+            "memoryAddr": "L135"
+          },
+          {
+            "tagId": 1669687587356,
+            "name": "block_oil_pressure_cooling_fan_overload",
+            "korName": "다이블럭 유압펌프 냉각팬과부하(M29A)",
+            "memoryType": "BIT",
+            "memoryAddr": "L136"
+          },
+          {
+            "tagId": 1669687605340,
+            "name": "transfer_point_separation_oil_pressure_pump_overload",
+            "korName": "전사점분리 유압펌프 과부하(M30)",
+            "memoryType": "BIT",
+            "memoryAddr": "L137"
+          },
+          {
+            "tagId": 1669687625289,
+            "name": "transfer_point_separation_camera_motor_overload",
+            "korName": "전사점분리 카메라 모터 과부하(M31)",
+            "memoryType": "BIT",
+            "memoryAddr": "L138"
+          },
+          {
+            "tagId": 1669687637161,
+            "name": "slow_inching_servo_motor_disorder",
+            "korName": "슬로우인칭 서보모터 이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L139"
+          },
+          {
+            "tagId": 1669687656981,
+            "name": "slow_inching_servo_clutch_pressure_disorder",
+            "korName": "슬로우인칭 서보클러치 압력이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L140"
+          },
+          {
+            "tagId": 1669687671361,
+            "name": "SP_conveyor_position_disorder",
+            "korName": "SP콘베어 위치이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L141"
+          },
+          {
+            "tagId": 1669687688822,
+            "name": "SP_conveyor_rotation_disorder",
+            "korName": "SP콘베어 회전이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L142"
+          },
+          {
+            "tagId": 1669687704456,
+            "name": "damper_position_disorder",
+            "korName": "댐퍼 위치이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L143"
+          },
+          {
+            "tagId": 1669687750243,
+            "name": "process_oil_lack",
+            "korName": "가공유 부족",
+            "memoryType": "BIT",
+            "memoryAddr": "L144"
+          },
+          {
+            "tagId": 1669687761633,
+            "name": "static_pump_overload",
+            "korName": "정압 펌프 과부하",
+            "memoryType": "BIT",
+            "memoryAddr": "L145"
+          },
+          {
+            "tagId": 1669687774731,
+            "name": "static_recall_pump_overload",
+            "korName": "정압 회수 펌프 과부하",
+            "memoryType": "BIT",
+            "memoryAddr": "L146"
+          },
+          {
+            "tagId": 1669687787355,
+            "name": "linear_oil_pressure_pump_overload",
+            "korName": "리니어 유압 펌프 과부하",
+            "memoryType": "BIT",
+            "memoryAddr": "L147"
+          },
+          {
+            "tagId": 1669688414116,
+            "name": "clutch_disorder_signal",
+            "korName": "클러치 이상 신호",
+            "memoryType": "BIT",
+            "memoryAddr": "L148"
+          },
+          {
+            "tagId": 1669688425752,
+            "name": "main_air_pressure_lack",
+            "korName": "메인에어 압력부족",
+            "memoryType": "BIT",
+            "memoryAddr": "L149"
+          },
+          {
+            "tagId": 1669688437283,
+            "name": "lubricant_pressure_lack",
+            "korName": "윤활유 압력부족",
+            "memoryType": "BIT",
+            "memoryAddr": "L150"
+          },
+          {
+            "tagId": 1669688447710,
+            "name": "lubricant_flux_lack",
+            "korName": "윤활유 유량부족",
+            "memoryType": "BIT",
+            "memoryAddr": "L151"
+          },
+          {
+            "tagId": 1669688459112,
+            "name": "lubricant_pressure_lack_crank",
+            "korName": "윤활유압력부족(크랭크)",
+            "memoryType": "BIT",
+            "memoryAddr": "L152"
+          },
+          {
+            "tagId": 1669688469482,
+            "name": "sholder_metal_pressure_lack_cutting",
+            "korName": "어깨메탈 압력부족(절단측) ",
+            "memoryType": "BIT",
+            "memoryAddr": "L153"
+          },
+          {
+            "tagId": 1669688501750,
+            "name": "sholder_metal_pressure_lack_control",
+            "korName": "어깨메탈 압력부족(조작측)",
+            "memoryType": "BIT",
+            "memoryAddr": "L154"
+          },
+          {
+            "tagId": 1669688513420,
+            "name": "KO_machine_disorder",
+            "korName": "KO 기구이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L155"
+          },
+          {
+            "tagId": 1669688524698,
+            "name": "PKO_machine_disorder",
+            "korName": "PKO 기구이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L156"
+          },
+          {
+            "tagId": 1669688535824,
+            "name": "opencam_lock_disorder",
+            "korName": "오픈캠  잠금이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L157"
+          },
+          {
+            "tagId": 1669688547110,
+            "name": "process_oil_pressure_lack",
+            "korName": "가공유 압력부족",
+            "memoryType": "BIT",
+            "memoryAddr": "L158"
+          },
+          {
+            "tagId": 1669688559908,
+            "name": "impact_overload",
+            "korName": "충격과부하",
+            "memoryType": "BIT",
+            "memoryAddr": "L159"
+          },
+          {
+            "tagId": 1669688571160,
+            "name": "short_material_detection_disorder",
+            "korName": "짧은재료 검출이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L160"
+          },
+          {
+            "tagId": 1669688581394,
+            "name": "transfer_machine_disorder",
+            "korName": "트랜스퍼 기구이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L161"
+          },
+          {
+            "tagId": 1669688595177,
+            "name": "cam_positioner_disorder",
+            "korName": "캠포지셔너 이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L162"
+          },
+          {
+            "tagId": 1669688609819,
+            "name": "3_view_stop_signal",
+            "korName": "3-View 정지신호",
+            "memoryType": "BIT",
+            "memoryAddr": "L163"
+          },
+          {
+            "tagId": 1669688621261,
+            "name": "auto_checker_stop_signal",
+            "korName": "오토체커  정지신호",
+            "memoryType": "BIT",
+            "memoryAddr": "L164"
+          },
+          {
+            "tagId": 1669688633153,
+            "name": "conveyor_emergency_stop_signal",
+            "korName": "콘베어 비상정지 신호",
+            "memoryType": "BIT",
+            "memoryAddr": "L165"
+          },
+          {
+            "tagId": 1669688645387,
+            "name": "conveyor_clutch_stop_signal",
+            "korName": "콘베어 클러치 정지 신호",
+            "memoryType": "BIT",
+            "memoryAddr": "L166"
+          },
+          {
+            "tagId": 1669688658442,
+            "name": "safety_plug_not_connected_machine_inspection",
+            "korName": "안전플러그 미접속(장비점검중)",
+            "memoryType": "BIT",
+            "memoryAddr": "L167"
+          },
+          {
+            "tagId": 1669688670112,
+            "name": "crank_temperature_disorder_cutting",
+            "korName": "크랭크 온도이상(절단측)",
+            "memoryType": "BIT",
+            "memoryAddr": "L168"
+          },
+          {
+            "tagId": 1669688679802,
+            "name": "crank_temperature_disorder_control",
+            "korName": "크랭크 온도이상(조작측)",
+            "memoryType": "BIT",
+            "memoryAddr": "L169"
+          },
+          {
+            "tagId": 1669688690106,
+            "name": "no_ingredient",
+            "korName": "재료없음",
+            "memoryType": "BIT",
+            "memoryAddr": "L170"
+          },
+          {
+            "tagId": 1669688705868,
+            "name": "production_quantity_completed",
+            "korName": "생산수량완료",
+            "memoryType": "BIT",
+            "memoryAddr": "L171"
+          },
+          {
+            "tagId": 1669688715658,
+            "name": "tool_life_counter_completed",
+            "korName": "공구수명 카운터완료",
+            "memoryType": "BIT",
+            "memoryAddr": "L172"
+          },
+          {
+            "tagId": 1669688725312,
+            "name": "acrylic_safety_cover_opened",
+            "korName": "아크릴 안전커버 열림",
+            "memoryType": "BIT",
+            "memoryAddr": "L173"
+          },
+          {
+            "tagId": 1669688746890,
+            "name": "SK_stop_signal",
+            "korName": "SK 정지신호",
+            "memoryType": "BIT",
+            "memoryAddr": "L174"
+          },
+          {
+            "tagId": 1669688764528,
+            "name": "chuck_auto_connect_clear_disorder",
+            "korName": "척 자동연결 해제이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L175"
+          },
+          {
+            "tagId": 1669688777406,
+            "name": "transfer_main_body_lock_disorder",
+            "korName": "트랜스퍼 본체 잠금이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L176"
+          },
+          {
+            "tagId": 1669688787748,
+            "name": "chuck_middle_position_disorder",
+            "korName": "척 중간위치 이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L177"
+          },
+          {
+            "tagId": 1669688799322,
+            "name": "APT_position_disorder",
+            "korName": "APT 위치이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L178"
+          },
+          {
+            "tagId": 1669688814886,
+            "name": "inching_switch_control_disorder",
+            "korName": "촌동 스위치 조작 이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L179"
+          },
+          {
+            "tagId": 1669688826556,
+            "name": "KO_oil_pressure_lock_disorder",
+            "korName": "KO 유압잠금이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L180"
+          },
+          {
+            "tagId": 1669688840152,
+            "name": "KO_oil_pressure_clear_disorder",
+            "korName": "KO 유압해제이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L181"
+          },
+          {
+            "tagId": 1669688850328,
+            "name": "ram_cover_safety_control_circuit_disorder",
+            "korName": "램커버 안전 동작 회로 이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L182"
+          },
+          {
+            "tagId": 1669688863610,
+            "name": "production_speed_lack",
+            "korName": "생산속도 미달",
+            "memoryType": "BIT",
+            "memoryAddr": "L183"
+          },
+          {
+            "tagId": 1669688875396,
+            "name": "product_lift_stop_disorder",
+            "korName": "제품리프트정지이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L184"
+          },
+          {
+            "tagId": 1669688894600,
+            "name": "process_oil_pipe_updraft_detection_disorder",
+            "korName": "가공유 파이프 상승 검출 이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L185"
+          },
+          {
+            "tagId": 1669688905862,
+            "name": "remanet_timber_remove_disorder",
+            "korName": "잔여 선재제거 이상(M330)",
+            "memoryType": "BIT",
+            "memoryAddr": "L186"
+          },
+          {
+            "tagId": 1669688918390,
+            "name": "oil_extractor_overload",
+            "korName": "오일 탈유기 과부하(M36)",
+            "memoryType": "BIT",
+            "memoryAddr": "L187"
+          },
+          {
+            "tagId": 1669688934934,
+            "name": "oil_mist_overload",
+            "korName": "오일 미스트 과부하(M37)",
+            "memoryType": "BIT",
+            "memoryAddr": "L188"
+          },
+          {
+            "tagId": 1669688957794,
+            "name": "claws_position_disorder",
+            "korName": "집게틀 위치 이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L189"
+          },
+          {
+            "tagId": 1669688967515,
+            "name": "chuck_fixing_lock_disorder",
+            "korName": "척고정 잠금이상",
+            "memoryType": "BIT",
+            "memoryAddr": "L190"
+          },
+          {
+            "tagId": 1669688979209,
+            "name": "claws_descent_undetected",
+            "korName": "집게틀 하강 미검출",
+            "memoryType": "BIT",
+            "memoryAddr": "L191"
+          },
+          {
+            "tagId": 1669688991904,
+            "name": "APT_position_undetected",
+            "korName": "APT 위치 미감지",
+            "memoryType": "BIT",
+            "memoryAddr": "L192"
+          },
+          {
+            "tagId": 1669689008783,
+            "name": "chuck_holder_clear_undetected",
+            "korName": "척홀더 해제 미감지",
+            "memoryType": "BIT",
+            "memoryAddr": "L193"
+          },
+          {
+            "tagId": 1669689022718,
+            "name": "opencam_pressure_lack",
+            "korName": "오픈캠 압력 부족",
+            "memoryType": "BIT",
+            "memoryAddr": "L194"
+          },
+          {
+            "tagId": 1669689033644,
+            "name": "chuck_holder_lock_undetected",
+            "korName": "척홀더 잠금 미감지",
+            "memoryType": "BIT",
+            "memoryAddr": "L195"
+          },
+          {
+            "tagId": 1669689043508,
+            "name": "claws_air_supply_stoped",
+            "korName": "집게에어 공급 정지",
+            "memoryType": "BIT",
+            "memoryAddr": "L196"
+          },
+          {
+            "tagId": 1669689053416,
+            "name": "ram_cover_opened",
+            "korName": "램커버 열림",
+            "memoryType": "BIT",
+            "memoryAddr": "L197"
+          },
+          {
+            "tagId": 1669689108446,
+            "name": "process_oil_pump_stoped",
+            "korName": "가공유 펌프 정지",
+            "memoryType": "BIT",
+            "memoryAddr": "L198"
+          },
+          {
+            "tagId": 1669689119416,
+            "name": "APT_fixing_undetected",
+            "korName": "APT고정 미감지",
+            "memoryType": "BIT",
+            "memoryAddr": "L199"
+          },
+          {
+            "tagId": 1669689129678,
+            "name": "KO_back_side_door_opened",
+            "korName": "KO후면 도어 열림",
+            "memoryType": "BIT",
+            "memoryAddr": "L200"
+          },
+          {
+            "tagId": 1669689153530,
+            "name": "material_transfer_adjustment_position_door_opened_right",
+            "korName": "재료이송 조정부 도어열림(우측)",
+            "memoryType": "BIT",
+            "memoryAddr": "L202"
+          },
+          {
+            "tagId": 1669689164704,
+            "name": "material_transfer_adjustment_position_door_opened_left",
+            "korName": "재료이송 조정부 도어열림(좌측)",
+            "memoryType": "BIT",
+            "memoryAddr": "L203"
+          },
+          {
+            "tagId": 1669689176706,
+            "name": "cutting_position_right_door_opened",
+            "korName": "절단부 우측 도어열림",
+            "memoryType": "BIT",
+            "memoryAddr": "L204"
+          },
+          {
+            "tagId": 1669689185844,
+            "name": "cutting_position_left_door_opened",
+            "korName": "절단부 좌측 도어열림",
+            "memoryType": "BIT",
+            "memoryAddr": "L205"
+          },
+          {
+            "tagId": 1669689196846,
+            "name": "gear_position_right_door_opend",
+            "korName": "기어부 우측 도어열림",
+            "memoryType": "BIT",
+            "memoryAddr": "L206"
+          },
+          {
+            "tagId": 1669689206912,
+            "name": "gear_position_left_door_opened",
+            "korName": "기어부 좌측 도어열림",
+            "memoryType": "BIT",
+            "memoryAddr": "L207"
+          },
+          {
+            "tagId": 1669689219572,
+            "name": "flywheel_right_door_opened",
+            "korName": "플라이휠 우측 도어열림",
+            "memoryType": "BIT",
+            "memoryAddr": "L208"
+          },
+          {
+            "tagId": 1669689243458,
+            "name": "flywheel_left_door_opened",
+            "korName": "플라이휠 좌측 도어열림",
+            "memoryType": "BIT",
+            "memoryAddr": "L209"
+          },
+          {
+            "tagId": 1669689253565,
+            "name": "pulley_door_opened",
+            "korName": "풀리측 도어열림",
+            "memoryType": "BIT",
+            "memoryAddr": "L210"
+          },
+          {
+            "tagId": 1669689264571,
+            "name": "robot_oil_pressure_pump_stop_state",
+            "korName": "로보트유압펌프 정지상태",
+            "memoryType": "BIT",
+            "memoryAddr": "L211"
+          },
+          {
+            "tagId": 1669689277289,
+            "name": "tool_change_angle_check",
+            "korName": "툴체인지각도확인",
+            "memoryType": "BIT",
+            "memoryAddr": "L212"
+          },
+          {
+            "tagId": 1669689293245,
+            "name": "block_side_bearer_clear_check",
+            "korName": "다이블럭 측판 해제 확인",
+            "memoryType": "BIT",
+            "memoryAddr": "L213"
+          },
+          {
+            "tagId": 1669689308129,
+            "name": "block_clear_check",
+            "korName": "다이블럭 해제확인",
+            "memoryType": "BIT",
+            "memoryAddr": "L214"
+          },
+          {
+            "tagId": 1669689320140,
+            "name": "transfer_clear_check",
+            "korName": "트랜스퍼해제확인",
+            "memoryType": "BIT",
+            "memoryAddr": "L215"
+          },
+          {
+            "tagId": 1669689330896,
+            "name": "collet_side_clear_check",
+            "korName": "콜렛측면해제확인",
+            "memoryType": "BIT",
+            "memoryAddr": "L216"
+          },
+          {
+            "tagId": 1669689340802,
+            "name": "process_oil_pipe_position_check",
+            "korName": "가공유 파이프 위치확인",
+            "memoryType": "BIT",
+            "memoryAddr": "L217"
+          },
+          {
+            "tagId": 1669689355856,
+            "name": "APT_position_check",
+            "korName": "APT위치확인",
+            "memoryType": "BIT",
+            "memoryAddr": "L218"
+          },
+          {
+            "tagId": 1669689368374,
+            "name": "acrylic_cover_open_section_check",
+            "korName": "아크릴 커버 열림단 확인",
+            "memoryType": "BIT",
+            "memoryAddr": "L219"
+          }
+        ],
+        "connection_type": "serial",
+        "protocol": "mitsubishi"
+      },
+      "Edge": {
+        "serialNum": "Gwangju_01"
+      }
+    },
+    {
+      "id": 12,
+      "name": "edukit3",
+      "model": null,
+      "manufacturer": "",
+      "location": "",
+      "edgeId": 2,
+      "profileId": 14,
+      "connectionType": "tcp/ip",
+      "networkConfig": {
+        "ip": "220.90.131.62",
+        "port": "62543"
+      },
+      "imgPath": null,
+      "description": "",
+      "logicalStationNumber": null,
+      "deployModel": null,
+      "userId": 2,
+      "groupId": 1,
+      "dataCollectHistoryId": 10,
+      "securityCertification": {},
+      "createdAt": "2022-11-04T06:37:29.982Z",
+      "updatedAt": "2022-11-04T06:37:29.989Z",
+      "EdgeId": 2,
+      "ProfileId": 14,
+      "Profile": {
+        "name": "edukit",
+        "requests": [
+          {
+            "tagId": 1667543817728,
+            "name": "start",
+            "memoryType": "BIT",
+            "memoryAddr": "M00000"
+          }
+        ],
+        "connection_type": "tcp/ip",
+        "protocol": "ls"
+      },
+      "Edge": {
+        "serialNum": "edge-2022-06-15"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Siwha_01",
+      "model": null,
+      "manufacturer": "",
+      "location": "",
+      "edgeId": 4,
+      "profileId": 13,
+      "connectionType": "serial",
+      "networkConfig": {
+        "port": "COM1",
+        "baudRate": 9600,
+        "parity": "None",
+        "stopBit": 1
+      },
+      "imgPath": null,
+      "description": "",
+      "logicalStationNumber": 1,
+      "deployModel": null,
+      "userId": 2,
+      "groupId": 1,
+      "dataCollectHistoryId": 8,
+      "securityCertification": {},
+      "createdAt": "2022-09-14T06:53:21.646Z",
+      "updatedAt": "2022-11-24T05:07:27.302Z",
+      "EdgeId": 4,
+      "ProfileId": 13,
+      "Profile": {
+        "name": "Frontec_Profile",
+        "requests": [
+          {
+            "tagId": 1661419658323,
+            "name": "device_status",
+            "memoryType": "BIT",
+            "memoryAddr": "D15000",
+            "korName": "설비 상태"
+          },
+          {
+            "tagId": 1661476726521,
+            "name": "cumulative_count_1",
+            "memoryType": "BIT",
+            "memoryAddr": "D15002",
+            "korName": "누적생산량 #1"
+          },
+          {
+            "tagId": 1661740385253,
+            "name": "cumulative_count_2",
+            "memoryType": "BIT",
+            "memoryAddr": "D15003",
+            "korName": "누적생산량 #2"
+          },
+          {
+            "tagId": 1661740551166,
+            "name": "daily_count_1_A",
+            "memoryType": "BIT",
+            "memoryAddr": "D15004",
+            "korName": "일일생산량 #1-1"
+          },
+          {
+            "tagId": 1661740565280,
+            "name": "daily_count_1_B",
+            "memoryType": "BIT",
+            "memoryAddr": "D15005",
+            "korName": "일일생산량 #1-2"
+          },
+          {
+            "tagId": 1661740581666,
+            "name": "daily_count_2_A",
+            "memoryType": "BIT",
+            "memoryAddr": "D15006",
+            "korName": "일일생산량 #2-1"
+          },
+          {
+            "tagId": 1661741233874,
+            "name": "daily_count_2_B",
+            "memoryType": "BIT",
+            "memoryAddr": "D15007",
+            "korName": "일일생산량 #2-2"
+          },
+          {
+            "tagId": 1661741286607,
+            "name": "main_air_pressure",
+            "memoryType": "BIT",
+            "memoryAddr": "D15010",
+            "korName": "메인 에어 압력"
+          },
+          {
+            "tagId": 1661741312701,
+            "name": "sholder_metal_control_temperature",
+            "memoryType": "BIT",
+            "memoryAddr": "D15012",
+            "korName": "어깨 메탈 온도 조작측"
+          },
+          {
+            "tagId": 1661741343045,
+            "name": "sholder_metal_cutting_temperature",
+            "memoryType": "BIT",
+            "memoryAddr": "D15014",
+            "korName": "어깨 메탈 온도 절단측"
+          },
+          {
+            "tagId": 1661741375607,
+            "name": "lubricant_supply_pressure",
+            "memoryType": "BIT",
+            "memoryAddr": "D15020",
+            "korName": "윤활유 공급 압력"
+          },
+          {
+            "tagId": 1661741398377,
+            "name": "process_oil_pressure",
+            "memoryType": "BIT",
+            "memoryAddr": "D15022",
+            "korName": "가공유 공급 압력"
+          },
+          {
+            "tagId": 1661741414319,
+            "name": "sholder_metal_oil_supply_pressure_control",
+            "memoryType": "BIT",
+            "memoryAddr": "D15024",
+            "korName": "어깨메탈 오일공급 압력 조작측"
+          },
+          {
+            "tagId": 1661741451153,
+            "name": "sholder_metal_oil_supply_cutting_control",
+            "memoryType": "BIT",
+            "memoryAddr": "D15026",
+            "korName": "어깨메탈 오일공급 압력 절단측"
+          },
+          {
+            "tagId": 1661741470841,
+            "name": "oil_pressure_level_warning",
+            "memoryType": "BIT",
+            "memoryAddr": "D15028",
+            "korName": "유압유니트 레벨 경고"
+          },
+          {
+            "tagId": 1661741493907,
+            "name": "main_motor_config_frequency",
+            "memoryType": "BIT",
+            "memoryAddr": "D15030",
+            "korName": "메인모터 설정 주파수"
+          },
+          {
+            "tagId": 1661741512891,
+            "name": "main_motor_current",
+            "memoryType": "BIT",
+            "memoryAddr": "D15032",
+            "korName": "메인모터 전류"
+          },
+          {
+            "tagId": 1661741531345,
+            "name": "main_motor_rpm",
+            "memoryType": "BIT",
+            "memoryAddr": "D15034",
+            "korName": "메인모터 회전수"
+          },
+          {
+            "tagId": 1661741548191,
+            "name": "main_motor_alarm",
+            "memoryType": "BIT",
+            "memoryAddr": "D15038",
+            "korName": "메인 모터 알람"
+          },
+          {
+            "tagId": 1661741565715,
+            "name": "claws_config_frequency",
+            "memoryType": "BIT",
+            "memoryAddr": "D15040",
+            "korName": "집게틀 설정 주파수"
+          },
+          {
+            "tagId": 1661741581665,
+            "name": "claws_current",
+            "memoryType": "BIT",
+            "memoryAddr": "D15042",
+            "korName": "집게틀 전류값"
+          },
+          {
+            "tagId": 1661741596971,
+            "name": "claws_position",
+            "memoryType": "BIT",
+            "memoryAddr": "D15044",
+            "korName": "집게틀 위치"
+          },
+          {
+            "tagId": 1661741615213,
+            "name": "claws_inverter_alarm",
+            "memoryType": "BIT",
+            "memoryAddr": "D15048",
+            "korName": "집게틀 인버터 알람"
+          },
+          {
+            "tagId": 1661741640897,
+            "name": "cutter_config_frequency",
+            "memoryType": "BIT",
+            "memoryAddr": "D15050",
+            "korName": "절단장 설정 주파수"
+          },
+          {
+            "tagId": 1661741659213,
+            "name": "cutter_current",
+            "memoryType": "BIT",
+            "memoryAddr": "D15052",
+            "korName": "절단장 전류값"
+          },
+          {
+            "tagId": 1661741680577,
+            "name": "cutter_invertor_alarm",
+            "memoryType": "BIT",
+            "memoryAddr": "D15058",
+            "korName": "절단장 인버터 알람"
+          },
+          {
+            "tagId": 1661741699319,
+            "name": "material_transfer_config_frequency",
+            "memoryType": "BIT",
+            "memoryAddr": "D15060",
+            "korName": "재료이송 설정 주파수"
+          },
+          {
+            "tagId": 1661741719552,
+            "name": "material_transfer_current",
+            "memoryType": "BIT",
+            "memoryAddr": "D15062",
+            "korName": "재료이송 전류값"
+          },
+          {
+            "tagId": 1661741740437,
+            "name": "material_transfer_invertor_alarm-errorcode",
+            "memoryType": "BIT",
+            "memoryAddr": "D15068",
+            "korName": "재료이송 인버터 알람"
+          },
+          {
+            "tagId": 1661741773000,
+            "name": "KO1_motor_config_frequency",
+            "memoryType": "BIT",
+            "memoryAddr": "D15070",
+            "korName": "KO#1 모터 설정 주파수"
+          },
+          {
+            "tagId": 1661741791546,
+            "name": "KO1_motor_current",
+            "memoryType": "BIT",
+            "memoryAddr": "D15072",
+            "korName": "KO#1 모터 전류값"
+          },
+          {
+            "tagId": 1661741810954,
+            "name": "KO1_invertor_alarm",
+            "memoryType": "BIT",
+            "memoryAddr": "D15078",
+            "korName": "KO#1 인버터 알람"
+          },
+          {
+            "tagId": 1661741840645,
+            "name": "KO2_motor_config_frequency",
+            "memoryType": "BIT",
+            "memoryAddr": "D15080",
+            "korName": "KO#2 모터 설정 주파수"
+          },
+          {
+            "tagId": 1661741856905,
+            "name": "KO2_motor_current",
+            "memoryType": "BIT",
+            "memoryAddr": "D15082",
+            "korName": "KO#2 모터 전류값"
+          },
+          {
+            "tagId": 1661741881215,
+            "name": "KO2_invertor_alarm",
+            "memoryType": "BIT",
+            "memoryAddr": "D15088",
+            "korName": "KO#2 인버터 알람"
+          },
+          {
+            "tagId": 1661742099992,
+            "name": "KO3_motor_config_frequency",
+            "memoryType": "BIT",
+            "memoryAddr": "D15090",
+            "korName": "KO#3 모터 설정 주파수"
+          },
+          {
+            "tagId": 1661742126124,
+            "name": "KO3_motor_current",
+            "memoryType": "BIT",
+            "memoryAddr": "D15092",
+            "korName": "KO#3 모터 전류값"
+          },
+          {
+            "tagId": 1661742161720,
+            "name": "KO3_invertor_alarm",
+            "memoryType": "BIT",
+            "memoryAddr": "D15098",
+            "korName": "KO#3 인버터 알람"
+          },
+          {
+            "tagId": 1661742265536,
+            "name": "KO4_motor_config_frequency",
+            "memoryType": "BIT",
+            "memoryAddr": "D15100",
+            "korName": "KO#4 모터 설정 주파수"
+          },
+          {
+            "tagId": 1661742290333,
+            "name": "KO4_motor_current",
+            "memoryType": "BIT",
+            "memoryAddr": "D15102",
+            "korName": "KO#4 모터 전류값"
+          },
+          {
+            "tagId": 1661742313892,
+            "name": "KO4_invertor_alarm",
+            "memoryType": "BIT",
+            "memoryAddr": "D15108",
+            "korName": "KO#4 인버터 알람"
+          },
+          {
+            "tagId": 1661742382474,
+            "name": "KO5_motor_config_frequency",
+            "memoryType": "BIT",
+            "memoryAddr": "D15110",
+            "korName": "KO#5 모터 설정 주파수"
+          },
+          {
+            "tagId": 1661742410172,
+            "name": "KO5_motor_current",
+            "memoryType": "BIT",
+            "memoryAddr": "D15112",
+            "korName": "KO#5 모터 전류값"
+          },
+          {
+            "tagId": 1661742439280,
+            "name": "KO5_invertor_alarm",
+            "memoryType": "BIT",
+            "memoryAddr": "D15118",
+            "korName": "KO#5 인버터 알람"
+          },
+          {
+            "tagId": 1661742498460,
+            "name": "KO6_motor_config_frequency",
+            "memoryType": "BIT",
+            "memoryAddr": "D15120",
+            "korName": "KO#6 모터 설정 주파수"
+          },
+          {
+            "tagId": 1661742514384,
+            "name": "KO6_motor_current",
+            "memoryType": "BIT",
+            "memoryAddr": "D15122",
+            "korName": "KO#6 모터 전류값"
+          },
+          {
+            "tagId": 1661742538424,
+            "name": "KO6_invertor_alarm",
+            "memoryType": "BIT",
+            "memoryAddr": "D15128",
+            "korName": "KO#6 인버터 알람"
+          },
+          {
+            "tagId": 1661742564031,
+            "name": "material_transfer_displacement_left",
+            "memoryType": "BIT",
+            "memoryAddr": "D15130",
+            "korName": "재료 트랜스퍼 변위 Left"
+          },
+          {
+            "tagId": 1661742584543,
+            "name": "material_transfer_displacement_right",
+            "memoryType": "BIT",
+            "memoryAddr": "D15132",
+            "korName": "재료 트랜스퍼 변위 Right"
+          },
+          {
+            "tagId": 1661742608107,
+            "name": "material_transfer_displacement_up",
+            "memoryType": "BIT",
+            "memoryAddr": "D15134",
+            "korName": "재료 트랜스퍼 변위 UP"
+          },
+          {
+            "tagId": 1661742634685,
+            "name": "material_transfer_displacement_down",
+            "memoryType": "BIT",
+            "memoryAddr": "D15136",
+            "korName": "재료 트랜스퍼 변위 Down"
+          },
+          {
+            "tagId": 1661742655885,
+            "name": "material_transfer_displacement_left_config_high",
+            "memoryType": "BIT",
+            "memoryAddr": "D15140",
+            "korName": "재료 트랜스퍼 변위 Left 설정값 Higth"
+          },
+          {
+            "tagId": 1661742669191,
+            "name": "material_transfer_displacement_right_config_high",
+            "memoryType": "BIT",
+            "memoryAddr": "D15142",
+            "korName": "재료 트랜스퍼 변위 Right 설정값 Higth"
+          },
+          {
+            "tagId": 1661742691357,
+            "name": "material_transfer_displacement_up_config_high",
+            "memoryType": "BIT",
+            "memoryAddr": "D15144",
+            "korName": "재료 트랜스퍼 변위 UP 설정값 Higth"
+          },
+          {
+            "tagId": 1661743167782,
+            "name": "material_transfer_displacement_down_config_high",
+            "memoryType": "BIT",
+            "memoryAddr": "D15146",
+            "korName": "재료 트랜스퍼 변위 Down 설정값 Higth"
+          },
+          {
+            "tagId": 1661749015618,
+            "name": "material_transfer_displacement_left_config_low",
+            "memoryType": "BIT",
+            "memoryAddr": "D15150",
+            "korName": "재료 트랜스퍼 변위 Left 설정값 Low"
+          },
+          {
+            "tagId": 1661749068183,
+            "name": "material_transfer_displacement_right_config_low",
+            "memoryType": "BIT",
+            "memoryAddr": "D15152",
+            "korName": "재료 트랜스퍼 변위 Right 설정값 Low"
+          },
+          {
+            "tagId": 1661749078485,
+            "name": "material_transfer_displacement_up_config_low",
+            "memoryType": "BIT",
+            "memoryAddr": "D15154",
+            "korName": "재료 트랜스퍼 변위 UP 설정값 Low"
+          },
+          {
+            "tagId": 1661749093701,
+            "name": "material_transfer_displacement_down_config_low",
+            "memoryType": "BIT",
+            "memoryAddr": "D15156",
+            "korName": "재료 트랜스퍼 변위 Down 설정값 Low"
+          },
+          {
+            "tagId": 1661749119697,
+            "name": "main_inverter_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L100",
+            "korName": "메인 인버터 이상(M1)"
+          },
+          {
+            "tagId": 1661749176177,
+            "name": "main_motor_cooling_fan_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L101",
+            "korName": "메인모터 냉각팬 과부하(M1A)"
+          },
+          {
+            "tagId": 1661749203863,
+            "name": "lubricant_pump_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L102",
+            "korName": "윤활유펌프 과부하(M2)"
+          },
+          {
+            "tagId": 1661749214727,
+            "name": "sholder_metal_pump_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L103",
+            "korName": "어깨메탈펌프 과부하(M2A)"
+          },
+          {
+            "tagId": 1661749225473,
+            "name": "process_oil_pump_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L104",
+            "korName": "가공유펌프 과부하(M3)"
+          },
+          {
+            "tagId": 1661749239201,
+            "name": "lubricant_collect_pump_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L105",
+            "korName": "윤활유 회수펌프 과부하(M4A)"
+          },
+          {
+            "tagId": 1661749252593,
+            "name": "process_oil_recall_pump_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L106",
+            "korName": "가공유 회수펌프 과부하(M4B)"
+          },
+          {
+            "tagId": 1661749279007,
+            "name": "lubricant_centrifuge_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L107",
+            "korName": "윤활유 원심분리기 과부하(M5A)"
+          },
+          {
+            "tagId": 1661749295809,
+            "name": "process_oil_centrifuge_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L108",
+            "korName": "가공유 원심분리기 과부하(M5B)"
+          },
+          {
+            "tagId": 1661749368573,
+            "name": "claws_inverter_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L109",
+            "korName": "집게틀 인버터 이상(M6)"
+          },
+          {
+            "tagId": 1661749381673,
+            "name": "ram_cover_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L110",
+            "korName": "램커버 모터 과부하(M7)"
+          },
+          {
+            "tagId": 1661749412305,
+            "name": "cutting_inverter_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L111",
+            "korName": "절단장 인버터 이상(M9)"
+          },
+          {
+            "tagId": 1661749448377,
+            "name": "material_transfer_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L112",
+            "korName": "재료이송 모터 과부하(M10)"
+          },
+          {
+            "tagId": 1661749461937,
+            "name": "timber_remove_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L113",
+            "korName": "선재제거 모터 과부하(M12)"
+          },
+          {
+            "tagId": 1661749474565,
+            "name": "conveyor_oil_pan_pump_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L114",
+            "korName": "콘베어 오일받이펌프 과부하(M13)"
+          },
+          {
+            "tagId": 1661749485071,
+            "name": "product_conveyor_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L115",
+            "korName": "제품콘베어 모터 과부하(M14)"
+          },
+          {
+            "tagId": 1661749520655,
+            "name": "chip_conveyor_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L116",
+            "korName": "칩콘베어 모터 과부하(M15)"
+          },
+          {
+            "tagId": 1661749531218,
+            "name": "KO_bottom_oil_recall_pump_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L117",
+            "korName": "KO하단 오일회수펌프 과부하(M16)"
+          },
+          {
+            "tagId": 1661749542820,
+            "name": "SP_conveyor_inverter_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L118",
+            "korName": "SP콘베어 인버터 이상(INV17)"
+          },
+          {
+            "tagId": 1661749554537,
+            "name": "SP_conveyor_motor1_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L119",
+            "korName": "SP콘베어 1차 모터 과부하(M17A)"
+          },
+          {
+            "tagId": 1661749564964,
+            "name": "SP_conveyor_motor2_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L120",
+            "korName": "SP콘베어 2차 모터 과부하(M17B)"
+          },
+          {
+            "tagId": 1661749576298,
+            "name": "timber_incoming_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L121",
+            "korName": "선재인입 모터 과부하(M18)"
+          },
+          {
+            "tagId": 1661749598909,
+            "name": "process_oil_nozzle_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L122",
+            "korName": "가공유노즐 모터 과부하(M19)"
+          },
+          {
+            "tagId": 1661749608128,
+            "name": "uncoiler_inverter_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L123",
+            "korName": "언코일러 인버터 이상(M20A)"
+          },
+          {
+            "tagId": 1661749616478,
+            "name": "pinch_roll_inverter_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L124",
+            "korName": "핀치롤 인버터 이상(M20B)"
+          },
+          {
+            "tagId": 1661749628080,
+            "name": "KO_adjustment_inverter_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L125",
+            "korName": "KO조정 인버터 이상(INV100)"
+          },
+          {
+            "tagId": 1661749641004,
+            "name": "KO1_adjustment_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L126",
+            "korName": "KO.1조정 모터 과부하(M21)"
+          },
+          {
+            "tagId": 1661749652848,
+            "name": "KO2_adjustment_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L127",
+            "korName": "KO.2조정 모터 과부하(M22)"
+          },
+          {
+            "tagId": 1661749666178,
+            "name": "KO3_adjustment_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L128",
+            "korName": "KO.3조정 모터 과부하(M23)"
+          },
+          {
+            "tagId": 1661749697486,
+            "name": "KO4_adjustment_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L129",
+            "korName": "KO.4조정 모터 과부하(M24)"
+          },
+          {
+            "tagId": 1661749709198,
+            "name": "KO5_adjustment_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L130",
+            "korName": "KO.5조정 모터 과부하(M25)"
+          },
+          {
+            "tagId": 1661749731282,
+            "name": "KO6_adjustment_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L131",
+            "korName": "KO.6조정 모터 과부하(M26)"
+          },
+          {
+            "tagId": 1661749754616,
+            "name": "KO7_adjustment_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L132",
+            "korName": "KO.7조정 모터 과부하(M27)"
+          },
+          {
+            "tagId": 1661749785375,
+            "name": "uncoiler_oil_pressure_pump_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L133",
+            "korName": "언코일러 유압펌프 과부하(M28)"
+          },
+          {
+            "tagId": 1661749798542,
+            "name": "uncoiler_oil_pressure_pump_cooling_fan_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L134",
+            "korName": "언코일러 유압펌프 냉각팬과부하(M28A)"
+          },
+          {
+            "tagId": 1661749809152,
+            "name": "block_oil_pressure_pump_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L135",
+            "korName": "다이블럭 유압펌프 과부하(M29)"
+          },
+          {
+            "tagId": 1661749819632,
+            "name": "block_oil_pressure_cooling_fan_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L136",
+            "korName": "다이블럭 유압펌프 냉각팬과부하(M29A)"
+          },
+          {
+            "tagId": 1661749856842,
+            "name": "transfer_point_separation_oil_pressure_pump_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L137",
+            "korName": "전사점분리 유압펌프 과부하(M30)"
+          },
+          {
+            "tagId": 1661749878790,
+            "name": "transfer_point_separation_camera_motor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L138",
+            "korName": "전사점분리 카메라 모터 과부하(M31)"
+          },
+          {
+            "tagId": 1661749889092,
+            "name": "slow_inching_servo_motor_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L139",
+            "korName": "슬로우인칭 서보모터 이상"
+          },
+          {
+            "tagId": 1661749954584,
+            "name": "slow_inching_servo_clutch_pressure_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L140",
+            "korName": "슬로우인칭 서보클러치 압력이상"
+          },
+          {
+            "tagId": 1661749965168,
+            "name": "SP_conveyor_position_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L141",
+            "korName": "SP콘베어 위치이상"
+          },
+          {
+            "tagId": 1661749977442,
+            "name": "SP_conveyor_rotation_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L142",
+            "korName": "SP콘베어 회전이상"
+          },
+          {
+            "tagId": 1661749995536,
+            "name": "damper_position_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L143",
+            "korName": "댐퍼 위치이상"
+          },
+          {
+            "tagId": 1661750004424,
+            "name": "process_oil_lack",
+            "memoryType": "BIT",
+            "memoryAddr": "L144",
+            "korName": "가공유 부족"
+          },
+          {
+            "tagId": 1661750016156,
+            "name": "static_pump_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L145",
+            "korName": "정압 펌프 과부하"
+          },
+          {
+            "tagId": 1661750028172,
+            "name": "static_recall_pump_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L146",
+            "korName": "정압 회수 펌프 과부하"
+          },
+          {
+            "tagId": 1661750052786,
+            "name": "linear_oil_pressure_pump_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L147",
+            "korName": "리니어 유압 펌프 과부하"
+          },
+          {
+            "tagId": 1661750065998,
+            "name": "clutch_disorder_signal",
+            "memoryType": "BIT",
+            "memoryAddr": "L148",
+            "korName": "클러치 이상 신호"
+          },
+          {
+            "tagId": 1661750076892,
+            "name": "main_air_pressure_lack",
+            "memoryType": "BIT",
+            "memoryAddr": "L149",
+            "korName": "메인에어 압력부족"
+          },
+          {
+            "tagId": 1661750085710,
+            "name": "lubricant_pressure_lack",
+            "memoryType": "BIT",
+            "memoryAddr": "L150",
+            "korName": "윤활유 압력부족"
+          },
+          {
+            "tagId": 1661750106306,
+            "name": "lubricant_flux_lack",
+            "memoryType": "BIT",
+            "memoryAddr": "L151",
+            "korName": "윤활유 유량부족"
+          },
+          {
+            "tagId": 1661750115780,
+            "name": "lubricant_pressure_lack_crank",
+            "memoryType": "BIT",
+            "memoryAddr": "L152",
+            "korName": "윤활유압력부족(크랭크)"
+          },
+          {
+            "tagId": 1661750145670,
+            "name": "sholder_metal_pressure_lack_cutting",
+            "memoryType": "BIT",
+            "memoryAddr": "L153",
+            "korName": "어깨메탈 압력부족(절단측) "
+          },
+          {
+            "tagId": 1661750154823,
+            "name": "sholder_metal_pressure_lack_control",
+            "memoryType": "BIT",
+            "memoryAddr": "L154",
+            "korName": "어깨메탈 압력부족(조작측)"
+          },
+          {
+            "tagId": 1661750179403,
+            "name": "KO_machine_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L155",
+            "korName": "KO 기구이상"
+          },
+          {
+            "tagId": 1661750188929,
+            "name": "PKO_machine_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L156",
+            "korName": "PKO 기구이상"
+          },
+          {
+            "tagId": 1661750198915,
+            "name": "opencam_lock_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L157",
+            "korName": "오픈캠  잠금이상"
+          },
+          {
+            "tagId": 1661750220215,
+            "name": "process_oil_pressure_lack",
+            "memoryType": "BIT",
+            "memoryAddr": "L158",
+            "korName": "가공유 압력부족"
+          },
+          {
+            "tagId": 1661750229008,
+            "name": "impact_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L159",
+            "korName": "충격과부하"
+          },
+          {
+            "tagId": 1661750238783,
+            "name": "short_material_detection_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L160",
+            "korName": "짧은재료 검출이상"
+          },
+          {
+            "tagId": 1661750258643,
+            "name": "transfer_machine_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L161",
+            "korName": "트랜스퍼 기구이상"
+          },
+          {
+            "tagId": 1661750269869,
+            "name": "cam_positioner_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L162",
+            "korName": "캠포지셔너 이상"
+          },
+          {
+            "tagId": 1661750281033,
+            "name": "3_view_stop_signal",
+            "memoryType": "BIT",
+            "memoryAddr": "L163",
+            "korName": "3-View 정지신호"
+          },
+          {
+            "tagId": 1661750289973,
+            "name": "auto_checker_stop_signal",
+            "memoryType": "BIT",
+            "memoryAddr": "L164",
+            "korName": "오토체커  정지신호"
+          },
+          {
+            "tagId": 1661750308671,
+            "name": "conveyor_emergency_stop_signal",
+            "memoryType": "BIT",
+            "memoryAddr": "L165",
+            "korName": "콘베어 비상정지 신호"
+          },
+          {
+            "tagId": 1661750319961,
+            "name": "conveyor_clutch_stop_signal",
+            "memoryType": "BIT",
+            "memoryAddr": "L166",
+            "korName": "콘베어 클러치 정지 신호"
+          },
+          {
+            "tagId": 1661750331425,
+            "name": "safety_plug_not_connected_machine_inspection",
+            "memoryType": "BIT",
+            "memoryAddr": "L167",
+            "korName": "안전플러그 미접속(장비점검중)"
+          },
+          {
+            "tagId": 1661750340942,
+            "name": "crank_temperature_disorder_cutting",
+            "memoryType": "BIT",
+            "memoryAddr": "L168",
+            "korName": "크랭크 온도이상(절단측)"
+          },
+          {
+            "tagId": 1661750366461,
+            "name": "crank_temperature_disorder_control",
+            "memoryType": "BIT",
+            "memoryAddr": "L169",
+            "korName": "크랭크 온도이상(조작측)"
+          },
+          {
+            "tagId": 1661750375995,
+            "name": "no_ingredient",
+            "memoryType": "BIT",
+            "memoryAddr": "L170",
+            "korName": "재료없음"
+          },
+          {
+            "tagId": 1661750385242,
+            "name": "production_quantity_completed",
+            "memoryType": "BIT",
+            "memoryAddr": "L171",
+            "korName": "생산수량완료"
+          },
+          {
+            "tagId": 1661750404026,
+            "name": "tool_life_counter_completed",
+            "memoryType": "BIT",
+            "memoryAddr": "L172",
+            "korName": "공구수명 카운터완료"
+          },
+          {
+            "tagId": 1661750432759,
+            "name": "acrylic_safety_cover_opened",
+            "memoryType": "BIT",
+            "memoryAddr": "L173",
+            "korName": "아크릴 안전커버 열림"
+          },
+          {
+            "tagId": 1661750442827,
+            "name": "SK_stop_signal",
+            "memoryType": "BIT",
+            "memoryAddr": "L174",
+            "korName": "SK 정지신호"
+          },
+          {
+            "tagId": 1661750471811,
+            "name": "chuck_auto_connect_clear_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L175",
+            "korName": "척 자동연결 해제이상"
+          },
+          {
+            "tagId": 1661750482825,
+            "name": "transfer_main_body_lock_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L176",
+            "korName": "트랜스퍼 본체 잠금이상"
+          },
+          {
+            "tagId": 1661750504642,
+            "name": "chuck_middle_position_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L177",
+            "korName": "척 중간위치 이상"
+          },
+          {
+            "tagId": 1661750539286,
+            "name": "APT_position_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L178",
+            "korName": "APT 위치이상"
+          },
+          {
+            "tagId": 1661750548659,
+            "name": "inching_switch_control_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L179",
+            "korName": "촌동 스위치 조작 이상"
+          },
+          {
+            "tagId": 1661750557394,
+            "name": "KO_oil_pressure_lock_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L180",
+            "korName": "KO 유압잠금이상"
+          },
+          {
+            "tagId": 1661750587364,
+            "name": "KO_oil_pressure_clear_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L181",
+            "korName": "KO 유압해제이상"
+          },
+          {
+            "tagId": 1661750597764,
+            "name": "ram_cover_safety_control_circuit_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L182",
+            "korName": "램커버 안전 동작 회로 이상"
+          },
+          {
+            "tagId": 1661750621034,
+            "name": "production_speed_lack",
+            "memoryType": "BIT",
+            "memoryAddr": "L183",
+            "korName": "생산속도 미달"
+          },
+          {
+            "tagId": 1661750633204,
+            "name": "product_lift_stop_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L184",
+            "korName": "제품리프트정지이상"
+          },
+          {
+            "tagId": 1661750646589,
+            "name": "process_oil_pipe_updraft_detection_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L185",
+            "korName": "가공유 파이프 상승 검출 이상"
+          },
+          {
+            "tagId": 1661750682011,
+            "name": "remanet_timber_remove_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L186",
+            "korName": "잔여 선재제거 이상(M330)"
+          },
+          {
+            "tagId": 1661750692281,
+            "name": "oil_extractor_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L187",
+            "korName": "오일 탈유기 과부하(M36)"
+          },
+          {
+            "tagId": 1661750700787,
+            "name": "oil_mist_overload",
+            "memoryType": "BIT",
+            "memoryAddr": "L188",
+            "korName": "오일 미스트 과부하(M37)"
+          },
+          {
+            "tagId": 1661750714129,
+            "name": "claws_position_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L189",
+            "korName": "집게틀 위치 이상"
+          },
+          {
+            "tagId": 1661750724281,
+            "name": "chuck_fixing_lock_disorder",
+            "memoryType": "BIT",
+            "memoryAddr": "L190",
+            "korName": "척고정 잠금이상"
+          },
+          {
+            "tagId": 1661750743075,
+            "name": "claws_descent_undetected",
+            "memoryType": "BIT",
+            "memoryAddr": "L191",
+            "korName": "집게틀 하강 미검출"
+          },
+          {
+            "tagId": 1661750753071,
+            "name": "APT_position_undetected",
+            "memoryType": "BIT",
+            "memoryAddr": "L192",
+            "korName": "APT 위치 미감지"
+          },
+          {
+            "tagId": 1661750764757,
+            "name": "chuck_holder_clear_undetected",
+            "memoryType": "BIT",
+            "memoryAddr": "L193",
+            "korName": "척홀더 해제 미감지"
+          },
+          {
+            "tagId": 1661750774239,
+            "name": "opencam_pressure_lack",
+            "memoryType": "BIT",
+            "memoryAddr": "L194",
+            "korName": "오픈캠 압력 부족"
+          },
+          {
+            "tagId": 1661750794582,
+            "name": "chuck_holder_lock_undetected",
+            "memoryType": "BIT",
+            "memoryAddr": "L195",
+            "korName": "척홀더 잠금 미감지"
+          },
+          {
+            "tagId": 1661750805098,
+            "name": "claws_air_supply_stoped",
+            "memoryType": "BIT",
+            "memoryAddr": "L196",
+            "korName": "집게에어 공급 정지"
+          },
+          {
+            "tagId": 1661750816168,
+            "name": "ram_cover_opened",
+            "memoryType": "BIT",
+            "memoryAddr": "L197",
+            "korName": "램커버 열림"
+          },
+          {
+            "tagId": 1661750828017,
+            "name": "process_oil_pump_stoped",
+            "memoryType": "BIT",
+            "memoryAddr": "L198",
+            "korName": "가공유 펌프 정지"
+          },
+          {
+            "tagId": 1661750848943,
+            "name": "APT_fixing_undetected",
+            "memoryType": "BIT",
+            "memoryAddr": "L199",
+            "korName": "APT고정 미감지"
+          },
+          {
+            "tagId": 1661750859917,
+            "name": "KO_back_side_door_opened",
+            "memoryType": "BIT",
+            "memoryAddr": "L200",
+            "korName": "KO후면 도어 열림"
+          },
+          {
+            "tagId": 1661750868783,
+            "name": "material_transfer_front_position_door_opened",
+            "memoryType": "BIT",
+            "memoryAddr": "L201",
+            "korName": "재료이송 전면부 도어열림"
+          },
+          {
+            "tagId": 1661750905441,
+            "name": "material_transfer_adjustment_position_door_opened_right",
+            "memoryType": "BIT",
+            "memoryAddr": "L202",
+            "korName": "재료이송 조정부 도어열림(우측)"
+          },
+          {
+            "tagId": 1661750913278,
+            "name": "material_transfer_adjustment_position_door_opened_left",
+            "memoryType": "BIT",
+            "memoryAddr": "L203",
+            "korName": "재료이송 조정부 도어열림(좌측)"
+          },
+          {
+            "tagId": 1661750922072,
+            "name": "cutting_position_right_door_opened",
+            "memoryType": "BIT",
+            "memoryAddr": "L204",
+            "korName": "절단부 우측 도어열림"
+          },
+          {
+            "tagId": 1661750961208,
+            "name": "cutting_position_left_door_opened",
+            "memoryType": "BIT",
+            "memoryAddr": "L205",
+            "korName": "절단부 좌측 도어열림"
+          },
+          {
+            "tagId": 1661750969420,
+            "name": "gear_position_right_door_opend",
+            "memoryType": "BIT",
+            "memoryAddr": "L206",
+            "korName": "기어부 우측 도어열림"
+          },
+          {
+            "tagId": 1661750978060,
+            "name": "gear_position_left_door_opened",
+            "memoryType": "BIT",
+            "memoryAddr": "L207",
+            "korName": "기어부 좌측 도어열림"
+          },
+          {
+            "tagId": 1661750986982,
+            "name": "flywheel_right_door_opened",
+            "memoryType": "BIT",
+            "memoryAddr": "L208",
+            "korName": "플라이휠 우측 도어열림"
+          },
+          {
+            "tagId": 1661750995176,
+            "name": "flywheel_left_door_opened",
+            "memoryType": "BIT",
+            "memoryAddr": "L209",
+            "korName": "플라이휠 좌측 도어열림"
+          },
+          {
+            "tagId": 1661751003302,
+            "name": "pulley_door_opened",
+            "memoryType": "BIT",
+            "memoryAddr": "L210",
+            "korName": "풀리측 도어열림"
+          },
+          {
+            "tagId": 1661751012591,
+            "name": "robot_oil_pressure_pump_stop_state",
+            "memoryType": "BIT",
+            "memoryAddr": "L211",
+            "korName": "로보트유압펌프 정지상태"
+          },
+          {
+            "tagId": 1661751023017,
+            "name": "tool_change_angle_check",
+            "memoryType": "BIT",
+            "memoryAddr": "L212",
+            "korName": "툴체인지각도확인"
+          },
+          {
+            "tagId": 1661751031859,
+            "name": "block_side_bearer_clear_check",
+            "memoryType": "BIT",
+            "memoryAddr": "L213",
+            "korName": "다이블럭 측판 해제 확인"
+          },
+          {
+            "tagId": 1661751041537,
+            "name": "block_clear_check",
+            "memoryType": "BIT",
+            "memoryAddr": "L214",
+            "korName": "다이블럭 해제확인"
+          },
+          {
+            "tagId": 1661759939234,
+            "name": "transfer_clear_check",
+            "memoryType": "BIT",
+            "memoryAddr": "L215",
+            "korName": "트랜스퍼해제확인"
+          },
+          {
+            "tagId": 1669173247806,
+            "name": "collet_side_clear_check",
+            "korName": "콜렛측면해제확인",
+            "memoryType": "BIT",
+            "memoryAddr": "L216"
+          },
+          {
+            "tagId": 1669173260463,
+            "name": "process_oil_pipe_position_check",
+            "korName": "가공유 파이프 위치확인",
+            "memoryType": "BIT",
+            "memoryAddr": "L217"
+          },
+          {
+            "tagId": 1669173307388,
+            "name": "APT_position_check",
+            "korName": "APT 위치 확인",
+            "memoryType": "BIT",
+            "memoryAddr": "L218"
+          },
+          {
+            "tagId": 1669173320455,
+            "name": "acrylic_cover_open_section_check",
+            "korName": "아크릴 커버 열림단 확인",
+            "memoryType": "BIT",
+            "memoryAddr": "L219"
+          }
+        ],
+        "connection_type": "serial",
+        "protocol": "mitsubishi"
+      },
+      "Edge": {
+        "serialNum": "Siwha_01"
+      }
+    },
+    {
+      "id": 8,
+      "name": "edukit2",
+      "model": null,
+      "manufacturer": "uvc",
+      "location": "",
+      "edgeId": 3,
+      "profileId": 12,
+      "connectionType": "tcp/ip",
+      "networkConfig": {
+        "ip": "220.90.131.62",
+        "port": "62542"
+      },
+      "imgPath": null,
+      "description": "",
+      "logicalStationNumber": null,
+      "deployModel": null,
+      "userId": 2,
+      "groupId": 1,
+      "dataCollectHistoryId": 7,
+      "securityCertification": {},
+      "createdAt": "2022-08-19T07:44:51.076Z",
+      "updatedAt": "2022-11-22T11:06:57.219Z",
+      "EdgeId": 3,
+      "ProfileId": 12,
+      "Profile": {
+        "name": "adasdasds",
+        "requests": [
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15000",
+            "tagId": 1669115094653,
+            "name": "device_status",
+            "korName": "d"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15002",
+            "tagId": 1669115094653,
+            "name": "cumulative_count_1",
+            "korName": "d"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15003",
+            "tagId": 1669115094653,
+            "name": "cumulative_count_2",
+            "korName": "d"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15004",
+            "tagId": 1669115094653,
+            "name": "daily_count_1_A",
+            "korName": "d"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15005",
+            "tagId": 1669115094653,
+            "name": "daily_count_1_B",
+            "korName": "d"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15006",
+            "tagId": 1669115094653,
+            "name": "daily_count_2_A"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15007",
+            "tagId": 1669115094653,
+            "name": "daily_count_2_B"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15010",
+            "tagId": 1669115094653,
+            "name": "main_air_pressure"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15012",
+            "tagId": 1669115094653,
+            "name": "sholder_metal_control_temperature"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15014",
+            "tagId": 1669115094653,
+            "name": "sholder_metal_cutting_temperature"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15020",
+            "tagId": 1669115094653,
+            "name": "lubricant_supply_pressure"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15022",
+            "tagId": 1669115094653,
+            "name": "process_oil_pressure"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15024",
+            "tagId": 1669115094653,
+            "name": "sholder_metal_oil_supply_pressure_control"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15026",
+            "tagId": 1669115094653,
+            "name": "sholder_metal_oil_supply_cutting_control"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15028",
+            "tagId": 1669115094653,
+            "name": "oil_pressure_level_warning"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15030",
+            "tagId": 1669115094653,
+            "name": "main_motor_config_frequency"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15032",
+            "tagId": 1669115094653,
+            "name": "main_motor_current"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15034",
+            "tagId": 1669115094653,
+            "name": "main_motor_rpm"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15038",
+            "tagId": 1669115094653,
+            "name": "main_motor_alarm"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15040",
+            "tagId": 1669115094653,
+            "name": "claws_config_frequency"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15042",
+            "tagId": 1669115094653,
+            "name": "claws_current"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15044",
+            "tagId": 1669115094653,
+            "name": "claws_position"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15048",
+            "tagId": 1669115094653,
+            "name": "claws_inverter_alarm"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15050",
+            "tagId": 1669115094653,
+            "name": "cutter_config_frequency"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15052",
+            "tagId": 1669115094653,
+            "name": "cutter_current"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15058",
+            "tagId": 1669115094653,
+            "name": "cutter_invertor_alarm"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15060",
+            "tagId": 1669115094653,
+            "name": "material_transfer_config_frequency"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15062",
+            "tagId": 1669115094653,
+            "name": "material_transfer_current"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15068",
+            "tagId": 1669115094653,
+            "name": "material_transfer_invertor_alarm-errorcode"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15070",
+            "tagId": 1669115094653,
+            "name": "KO1_motor_config_frequency"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15072",
+            "tagId": 1669115094653,
+            "name": "KO1_motor_current"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15078",
+            "tagId": 1669115094653,
+            "name": "KO1_invertor_alarm"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15080",
+            "tagId": 1669115094653,
+            "name": "KO2_motor_config_frequency"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15082",
+            "tagId": 1669115094653,
+            "name": "KO2_motor_current"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15088",
+            "tagId": 1669115094653,
+            "name": "KO2_invertor_alarm"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15090",
+            "tagId": 1669115094653,
+            "name": "KO3_motor_config_frequency"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15092",
+            "tagId": 1669115094653,
+            "name": "KO3_motor_current"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15098",
+            "tagId": 1669115094653,
+            "name": "KO3_invertor_alarm"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15100",
+            "tagId": 1669115094653,
+            "name": "KO4_motor_config_frequency"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15102",
+            "tagId": 1669115094653,
+            "name": "KO4_motor_current"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15108",
+            "tagId": 1669115094653,
+            "name": "KO4_invertor_alarm"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15110",
+            "tagId": 1669115094653,
+            "name": "KO5_motor_config_frequency"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15112",
+            "tagId": 1669115094653,
+            "name": "KO5_motor_current"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15118",
+            "tagId": 1669115094653,
+            "name": "KO5_invertor_alarm"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15120",
+            "tagId": 1669115094653,
+            "name": "KO6_motor_config_frequency"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15122",
+            "tagId": 1669115094653,
+            "name": "KO6_motor_current"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15128",
+            "tagId": 1669115094653,
+            "name": "KO6_invertor_alarm"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15130",
+            "tagId": 1669115094653,
+            "name": "material_transfer_displacement_left"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15132",
+            "tagId": 1669115094653,
+            "name": "material_transfer_displacement_right"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15134",
+            "tagId": 1669115094653,
+            "name": "material_transfer_displacement_up"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15136",
+            "tagId": 1669115094653,
+            "name": "material_transfer_displacement_down"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15140",
+            "tagId": 1669115094653,
+            "name": "material_transfer_displacement_left_config_high"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15142",
+            "tagId": 1669115094653,
+            "name": "material_transfer_displacement_right_config_high"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15144",
+            "tagId": 1669115094653,
+            "name": "material_transfer_displacement_up_config_high"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15146",
+            "tagId": 1669115094653,
+            "name": "material_transfer_displacement_down_config_high"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15150",
+            "tagId": 1669115094653,
+            "name": "material_transfer_displacement_left_config_low"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15152",
+            "tagId": 1669115094653,
+            "name": "material_transfer_displacement_right_config_low"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15154",
+            "tagId": 1669115094653,
+            "name": "material_transfer_displacement_up_config_low"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D15156",
+            "tagId": 1669115094653,
+            "name": "material_transfer_displacement_down_config_low"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L100",
+            "tagId": 1669115094653,
+            "name": "main_inverter_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L101",
+            "tagId": 1669115094653,
+            "name": "main_motor_cooling_fan_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L102",
+            "tagId": 1669115094653,
+            "name": "lubricant_pump_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L103",
+            "tagId": 1669115094653,
+            "name": "sholder_metal_pump_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L104",
+            "tagId": 1669115094653,
+            "name": "process_oil_pump_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L105",
+            "tagId": 1669115094653,
+            "name": "lubricant_collect_pump_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L106",
+            "tagId": 1669115094653,
+            "name": "process_oil_recall_pump_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L107",
+            "tagId": 1669115094653,
+            "name": "lubricant_centrifuge_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L108",
+            "tagId": 1669115094653,
+            "name": "process_oil_centrifuge_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L109",
+            "tagId": 1669115094653,
+            "name": "claws_inverter_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L110",
+            "tagId": 1669115094653,
+            "name": "ram_cover_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L111",
+            "tagId": 1669115094653,
+            "name": "cutting_inverter_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L112",
+            "tagId": 1669115094653,
+            "name": "material_transfer_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L113",
+            "tagId": 1669115094653,
+            "name": "timber_remove_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L114",
+            "tagId": 1669115094653,
+            "name": "conveyor_oil_pan_pump_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L115",
+            "tagId": 1669115094653,
+            "name": "product_conveyor_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L116",
+            "tagId": 1669115094653,
+            "name": "chip_conveyor_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L117",
+            "tagId": 1669115094653,
+            "name": "KO_bottom_oil_recall_pump_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L118",
+            "tagId": 1669115094653,
+            "name": "SP_conveyor_inverter_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L119",
+            "tagId": 1669115094653,
+            "name": "SP_conveyor_motor1_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L120",
+            "tagId": 1669115094653,
+            "name": "SP_conveyor_motor2_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L121",
+            "tagId": 1669115094653,
+            "name": "timber_incoming_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L122",
+            "tagId": 1669115094653,
+            "name": "process_oil_nozzle_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L123",
+            "tagId": 1669115094653,
+            "name": "uncoiler_inverter_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L124",
+            "tagId": 1669115094653,
+            "name": "pinch_roll_inverter_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L125",
+            "tagId": 1669115094653,
+            "name": "KO_adjustment_inverter_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L126",
+            "tagId": 1669115094653,
+            "name": "KO1_adjustment_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L127",
+            "tagId": 1669115094653,
+            "name": "KO2_adjustment_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L128",
+            "tagId": 1669115094653,
+            "name": "KO3_adjustment_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L129",
+            "tagId": 1669115094653,
+            "name": "KO4_adjustment_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L130",
+            "tagId": 1669115094653,
+            "name": "KO5_adjustment_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L131",
+            "tagId": 1669115094653,
+            "name": "KO6_adjustment_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L132",
+            "tagId": 1669115094653,
+            "name": "KO7_adjustment_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L133",
+            "tagId": 1669115094653,
+            "name": "uncoiler_oil_pressure_pump_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L134",
+            "tagId": 1669115094653,
+            "name": "uncoiler_oil_pressure_pump_cooling_fan_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L135",
+            "tagId": 1669115094653,
+            "name": "block_oil_pressure_pump_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L136",
+            "tagId": 1669115094653,
+            "name": "block_oil_pressure_cooling_fan_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L137",
+            "tagId": 1669115094653,
+            "name": "transfer_point_separation_oil_pressure_pump_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L138",
+            "tagId": 1669115094653,
+            "name": "transfer_point_separation_camera_motor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L139",
+            "tagId": 1669115094653,
+            "name": "slow_inching_servo_motor_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L140",
+            "tagId": 1669115094653,
+            "name": "slow_inching_servo_clutch_pressure_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L141",
+            "tagId": 1669115094653,
+            "name": "SP_conveyor_position_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L142",
+            "tagId": 1669115094653,
+            "name": "SP_conveyor_rotation_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L143",
+            "tagId": 1669115094653,
+            "name": "damper_position_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L144",
+            "tagId": 1669115094653,
+            "name": "process_oil_lack"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L145",
+            "tagId": 1669115094653,
+            "name": "static_pump_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L146",
+            "tagId": 1669115094653,
+            "name": "static_recall_pump_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L147",
+            "tagId": 1669115094653,
+            "name": "linear_oil_pressure_pump_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L148",
+            "tagId": 1669115094653,
+            "name": "clutch_disorder_signal"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L149",
+            "tagId": 1669115094653,
+            "name": "main_air_pressure_lack"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L150",
+            "tagId": 1669115094653,
+            "name": "lubricant_pressure_lack"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L151",
+            "tagId": 1669115094653,
+            "name": "lubricant_flux_lack"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L152",
+            "tagId": 1669115094653,
+            "name": "lubricant_pressure_lack_crank"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L153",
+            "tagId": 1669115094653,
+            "name": "sholder_metal_pressure_lack_cutting"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L154",
+            "tagId": 1669115094653,
+            "name": "sholder_metal_pressure_lack_control"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L155",
+            "tagId": 1669115094653,
+            "name": "KO_machine_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L156",
+            "tagId": 1669115094653,
+            "name": "PKO_machine_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L157",
+            "tagId": 1669115094653,
+            "name": "opencam_lock_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L158",
+            "tagId": 1669115094653,
+            "name": "process_oil_pressure_lack"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L159",
+            "tagId": 1669115094653,
+            "name": "impact_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L160",
+            "tagId": 1669115094653,
+            "name": "short_material_detection_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L161",
+            "tagId": 1669115094653,
+            "name": "transfer_machine_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L162",
+            "tagId": 1669115094653,
+            "name": "cam_positioner_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L163",
+            "tagId": 1669115094653,
+            "name": "3_view_stop_signal"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L164",
+            "tagId": 1669115094653,
+            "name": "auto_checker_stop_signal"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L165",
+            "tagId": 1669115094653,
+            "name": "conveyor_emergency_stop_signal"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L166",
+            "tagId": 1669115094653,
+            "name": "conveyor_clutch_stop_signal"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L167",
+            "tagId": 1669115094653,
+            "name": "safety_plug_not_connected_machine_inspection"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L168",
+            "tagId": 1669115094653,
+            "name": "crank_temperature_disorder_cutting"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L169",
+            "tagId": 1669115094653,
+            "name": "crank_temperature_disorder_control"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L170",
+            "tagId": 1669115094653,
+            "name": "no_ingredient"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L171",
+            "tagId": 1669115094653,
+            "name": "production_quantity_completed"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L172",
+            "tagId": 1669115094653,
+            "name": "tool_life_counter_completed"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L173",
+            "tagId": 1669115094653,
+            "name": "acrylic_safety_cover_opened"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L174",
+            "tagId": 1669115094653,
+            "name": "SK_stop_signal"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L175",
+            "tagId": 1669115094653,
+            "name": "chuck_auto_connect_clear_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L176",
+            "tagId": 1669115094653,
+            "name": "transfer_main_body_lock_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L177",
+            "tagId": 1669115094653,
+            "name": "chuck_middle_position_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L178",
+            "tagId": 1669115094653,
+            "name": "APT_position_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L179",
+            "tagId": 1669115094653,
+            "name": "inching_switch_control_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L180",
+            "tagId": 1669115094653,
+            "name": "KO_oil_pressure_lock_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L181",
+            "tagId": 1669115094653,
+            "name": "KO_oil_pressure_clear_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L182",
+            "tagId": 1669115094653,
+            "name": "ram_cover_safety_control_circuit_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L183",
+            "tagId": 1669115094653,
+            "name": "production_speed_lack"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L184",
+            "tagId": 1669115094653,
+            "name": "product_lift_stop_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L185",
+            "tagId": 1669115094653,
+            "name": "process_oil_pipe_updraft_detection_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L186",
+            "tagId": 1669115094653,
+            "name": "remanet_timber_remove_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L187",
+            "tagId": 1669115094653,
+            "name": "oil_extractor_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L188",
+            "tagId": 1669115094653,
+            "name": "oil_mist_overload"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L189",
+            "tagId": 1669115094653,
+            "name": "claws_position_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L190",
+            "tagId": 1669115094653,
+            "name": "chuck_fixing_lock_disorder"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L191",
+            "tagId": 1669115094653,
+            "name": "claws_descent_undetected"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L192",
+            "tagId": 1669115094653,
+            "name": "APT_position_undetected"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L193",
+            "tagId": 1669115094653,
+            "name": "chuck_holder_clear_undetected"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L194",
+            "tagId": 1669115094653,
+            "name": "opencam_pressure_lack"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L195",
+            "tagId": 1669115094653,
+            "name": "chuck_holder_lock_undetected"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L196",
+            "tagId": 1669115094653,
+            "name": "claws_air_supply_stoped"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L197",
+            "tagId": 1669115094653,
+            "name": "ram_cover_opened"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L198",
+            "tagId": 1669115094653,
+            "name": "process_oil_pump_stoped"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L199",
+            "tagId": 1669115094653,
+            "name": "APT_fixing_undetected"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L200",
+            "tagId": 1669115094653,
+            "name": "KO_back_side_door_opened"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L201",
+            "tagId": 1669115094653,
+            "name": "material_transfer_front_position_door_opened"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L202",
+            "tagId": 1669115094653,
+            "name": "material_transfer_adjustment_position_door_opened_right"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L203",
+            "tagId": 1669115094653,
+            "name": "material_transfer_adjustment_position_door_opened_left"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L204",
+            "tagId": 1669115094653,
+            "name": "cutting_position_right_door_opened"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L205",
+            "tagId": 1669115094653,
+            "name": "cutting_position_left_door_opened"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L206",
+            "tagId": 1669115094653,
+            "name": "gear_position_right_door_opend"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L207",
+            "tagId": 1669115094653,
+            "name": "gear_position_left_door_opened"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L208",
+            "tagId": 1669115094653,
+            "name": "flywheel_right_door_opened"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L209",
+            "tagId": 1669115094653,
+            "name": "flywheel_left_door_opened"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L210",
+            "tagId": 1669115094653,
+            "name": "pulley_door_opened"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L211",
+            "tagId": 1669115094653,
+            "name": "robot_oil_pressure_pump_stop_state"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L212",
+            "tagId": 1669115094653,
+            "name": "tool_change_angle_check"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L213",
+            "tagId": 1669115094653,
+            "name": "block_side_bearer_clear_check"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L214",
+            "tagId": 1669115094653,
+            "name": "block_clear_check"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L215",
+            "tagId": 1669115094653,
+            "name": "transfer_clear_check"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L216",
+            "tagId": 1669115094653,
+            "name": "collet_side_clear_check"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L217",
+            "tagId": 1669115094653,
+            "name": "process_oil_pipe_position_check"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L218",
+            "tagId": 1669115094653,
+            "name": "APT_position_check"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "L219",
+            "tagId": 1669115094653,
+            "name": "acrylic_cover_open_section_check"
+          }
+        ],
+        "connection_type": "tcp/ip",
+        "protocol": "ls"
+      },
+      "Edge": {
+        "serialNum": "UVC-EDU-01"
+      }
+    },
+    {
+      "id": 6,
+      "name": "edukit",
+      "model": null,
+      "manufacturer": "uvc",
+      "location": "test",
+      "edgeId": 2,
+      "profileId": 10,
+      "connectionType": "tcp/ip",
+      "networkConfig": {
+        "ip": "220.90.131.62",
+        "port": "62543"
+      },
+      "imgPath": null,
+      "description": "",
+      "logicalStationNumber": null,
+      "deployModel": null,
+      "userId": 2,
+      "groupId": 1,
+      "dataCollectHistoryId": 6,
+      "securityCertification": {},
+      "createdAt": "2022-07-06T06:55:17.958Z",
+      "updatedAt": "2022-08-19T07:33:14.943Z",
+      "EdgeId": 2,
+      "ProfileId": 10,
+      "Profile": {
+        "name": "test3",
+        "requests": [
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M00000",
+            "tagId": 1657155394309,
+            "name": "start"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M00011",
+            "tagId": 1657155394309,
+            "name": "no1partsError"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M00092",
+            "tagId": 1657155394309,
+            "name": "No1_Action"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M00104",
+            "tagId": 1657155394309,
+            "name": "No2_Action"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "P0000E",
+            "tagId": 1657155394309,
+            "name": "No3Ready"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M00105",
+            "tagId": 1657155394309,
+            "name": "ColorSensor"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "C00005",
+            "tagId": 1657155394309,
+            "name": "VisionSensor"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M0000F",
+            "tagId": 1657155394309,
+            "name": "Reset"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M0008F",
+            "tagId": 1657155394309,
+            "name": "no1_on_off"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M0009F",
+            "tagId": 1657155394309,
+            "name": "no2_on_off"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M0010E",
+            "tagId": 1657155394309,
+            "name": "no3_on_off"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M0006F",
+            "tagId": 1657155394309,
+            "name": "sensor1_on_off"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M0007F",
+            "tagId": 1657155394309,
+            "name": "sensor2_on_off"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D01101",
+            "tagId": 1657155394309,
+            "name": "No1Delay"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "C00001",
+            "tagId": 1657155394309,
+            "name": "No1Count"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "C00002",
+            "tagId": 1657155394309,
+            "name": "No2Count"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "C00007",
+            "tagId": 1657155394309,
+            "name": "No3Count"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "P0002C",
+            "tagId": 1657155394309,
+            "name": "lamp_green"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "P0002D",
+            "tagId": 1657155394309,
+            "name": "lamp_yellow"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "P0002E",
+            "tagId": 1657155394309,
+            "name": "lamp_red"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "K00424",
+            "tagId": 1657155394309,
+            "name": "No3Motor1"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "K00444",
+            "tagId": 1657155394309,
+            "name": "No3Motor2"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "P00009",
+            "tagId": 1657155394309,
+            "name": "No1ChipFull"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "P0000A",
+            "tagId": 1657155394309,
+            "name": "No2Chip"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "P0000B",
+            "tagId": 1657155394309,
+            "name": "No2CubeFull"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "P0000C",
+            "tagId": 1657155394309,
+            "name": "No2InPoint"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "P0000D",
+            "tagId": 1657155394309,
+            "name": "No2OutPoint"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "P0002A",
+            "tagId": 1657155394309,
+            "name": "No2Sol"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M00106",
+            "tagId": 1657155394309,
+            "name": "No2SolAction"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M00107",
+            "tagId": 1657155394309,
+            "name": "No2BackToSquare"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M00018",
+            "tagId": 1657155394309,
+            "name": "No2Mode"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "P0000E",
+            "tagId": 1657155394309,
+            "name": "No3Chip"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "M0001C",
+            "tagId": 1657155394309,
+            "name": "VisionCmdMemory"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "C0004",
+            "tagId": 1657155394309,
+            "name": "No3DiceReading"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "P0000F",
+            "tagId": 1657155394309,
+            "name": "Emergency"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D10000",
+            "tagId": 1657155394309,
+            "name": "OutputLimit"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D01100",
+            "tagId": 1657155394309,
+            "name": "DiceValue"
+          },
+          {
+            "memoryType": "WORD",
+            "memoryAddr": "D00150",
+            "tagId": 1657155394309,
+            "name": "DiceComparisonValue"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "P00004",
+            "tagId": 1657155394309,
+            "name": "ColorSensorSensing"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "P0002B",
+            "tagId": 1657155394309,
+            "name": "No3Gripper"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "K04200",
+            "tagId": 1657155394309,
+            "name": "Motor1Busy"
+          },
+          {
+            "memoryType": "BIT",
+            "memoryAddr": "K04400",
+            "tagId": 1657155394309,
+            "name": "Motor2Busy"
+          }
+        ],
+        "connection_type": "tcp/ip",
+        "protocol": "ls"
+      },
+      "Edge": {
+        "serialNum": "edge-2022-06-15"
+      }
+    }
+  ],
+  "remark": null
+}
